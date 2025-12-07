@@ -1,0 +1,28 @@
+
+@use '../../../styles/variables';
+
+.typography {
+  &_h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: variables.$black;
+  }
+
+  &_h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: -0.2px;
+    color: variables.$black;
+  }
+
+  &_p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.1px;
+    color: variables.$gray-500;
+  }
+}

@@ -3,16 +3,19 @@ import React, {
   type FC,
   type PropsWithChildren,
 } from "react";
+import { TYPOGRAPHY_MAP, DEFAULT_COMPONENT } from "./constants";
 
 type TypographyProps = {
-  component: ElementType;
+  component?: ElementType;
 };
 
 export const Typography: FC<PropsWithChildren<TypographyProps>> = ({
-  component,
+  component = DEFAULT_COMPONENT,
   children,
 }) => {
   const Component = component;
 
-  return <Component>{children}</Component>;
+  return (
+    <Component className={TYPOGRAPHY_MAP[component.toString()]}>{children}</Component>
+  );
 };

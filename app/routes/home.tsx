@@ -1,5 +1,6 @@
+import { TasksBoard } from "~/features/tasks-board";
 import type { Route } from "./+types/home";
-import { Welcome } from "../components/welcome/welcome";
+
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -9,5 +10,5 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <Welcome />;
+  return <TasksBoard />;
 }
