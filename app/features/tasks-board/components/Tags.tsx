@@ -9,7 +9,7 @@ type TagsProps = {
 
 export const Tags: FC<TagsProps> = ({ tags }) => {
   return (
-    <div className={styles.tags}>
+    <div className={styles.stack}>
       {tags.map(({ id, title }) => (
         <Badge key={id} text={title} type={BADGE_TYPE.TAG} />
       ))}

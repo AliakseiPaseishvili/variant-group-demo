@@ -3,10 +3,15 @@ export type Label = {
   title: string;
 }
 
+export type ProfilePic = {
+  id: string;
+  url: string;
+};
+
 export type TaskWithId = {
   id: string;
   title: string;
   description?: string;
   labels?: Label[];
-  userIds?: string[];
+  userImages?: ProfilePic[];
 };
