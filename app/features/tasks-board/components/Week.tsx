@@ -9,7 +9,7 @@ type WeekProps = { title: string; tasks: TaskWithId[] };
 
 export const Week: FC<WeekProps> = ({ title, tasks }) => {
   return (
-    <Wrapper type={WRAPPER_TYPE.LANE}>
+    <Wrapper type={WRAPPER_TYPE.LANE} className={styles.week_wrapper}>
       <Badge text={title} />
       <div className={styles.week}>
         {tasks.map(({ id, ...task }) => (
