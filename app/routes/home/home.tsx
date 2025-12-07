@@ -1,6 +1,6 @@
 import { TasksBoard } from "~/features/tasks-board";
 import type { Route } from "./+types/home";
-
+import styles from './home.module.scss';
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -10,5 +10,9 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <TasksBoard />;
+  return (
+    <main className={styles.home}>
+      <TasksBoard />
+    </main>
+  );
 }

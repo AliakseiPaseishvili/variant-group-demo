@@ -1,4 +1,7 @@
 {
   "header": "Design weekly",
-  "header_description": "A board to keep track of design progress."
+  "header_description": "A board to keep track of design progress.",
+  "last_week": "Last week",
+  "this_week": "This week",
+  "next_week": "Next week"
 }

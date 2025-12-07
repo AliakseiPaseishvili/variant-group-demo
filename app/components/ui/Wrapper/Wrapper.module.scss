@@ -1,0 +1,28 @@
+@use '../../../styles/variables';
+
+.wrapper {
+
+  &_base {
+    border-radius: 24px;
+    border-width: 1px;
+    border-color: variables.$border-wrapper-color;
+    border-style: solid;
+    padding: 12px;
+  }
+
+  &_lane {
+    border-radius:  12px;
+    background-color: variables.$gray-100;
+    padding: 12px;
+  }
+
+  &_card {
+    background-color: variables.$white;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: variables.$gray-300;
+    box-shadow: 0px 2px 6px 0px variables.$border-card-color;
+    padding: 12px 16px
+  }
+}

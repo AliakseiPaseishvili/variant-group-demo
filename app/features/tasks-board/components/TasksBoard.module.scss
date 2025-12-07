@@ -1,0 +1,32 @@
+@use '../../../styles/media';
+@use '../../../styles//variables';
+
+.tasks_board {
+  padding: 16px;
+
+  @include media.min-width(lg) {
+    padding: 20px 20px 48px;
+  }
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  @include media.min-width(md) {
+    flex-direction: row;
+    align-items: start;
+    flex-wrap: wrap;
+ }
+}
+
+.week {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.task {
+  min-width: 284px;
+}
