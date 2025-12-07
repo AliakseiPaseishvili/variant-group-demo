@@ -22,6 +22,7 @@
 }
 
 .week {
+  margin-top: 12px;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -29,4 +30,11 @@
 
 .task {
   min-width: 284px;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4px;
 }
