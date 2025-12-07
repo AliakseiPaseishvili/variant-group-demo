@@ -1,20 +1,16 @@
-# Welcome to React Router!
+# Demo task for variant group
 
-A modern, production-ready template for building full-stack React applications using React Router.
+## What was implemented:
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+- Main task
+- Responsive design
+- Add translations.
 
-## Features
+## TBD
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎨 Plain CSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
+- Eslint.
+- Prettier.
+- Global Imports.
 
 ### Installation
 
@@ -55,33 +51,3 @@ docker build -t my-app .
 docker run -p 3000:3000 my-app
 ```
 
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template uses plain CSS by default. You can adapt the styles or plug in a different framework if you prefer.
-
----
-
-Built with ❤️ using React Router.
