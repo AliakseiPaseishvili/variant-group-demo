@@ -1,9 +1,9 @@
 import React, { type FC } from "react";
-import { Wrapper, WRAPPER_TYPE } from "~/components/ui/Wrapper";
+import { Wrapper, WRAPPER_TYPE } from "~/components/Wrapper";
 import styles from "./TasksBoard.module.scss";
 import type { TaskWithId } from "~/types/backend";
 import { Task } from "./Task";
-import { Badge } from "~/components/ui/Badge";
+import { Badge } from "~/components/Badge";
 
 type WeekProps = { title: string; tasks: TaskWithId[] };
 

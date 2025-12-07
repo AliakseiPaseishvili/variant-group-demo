@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './TasksBoard.module.scss';
-import { Wrapper, WRAPPER_TYPE } from '~/components/ui/Wrapper';
+import { Wrapper } from '~/components/Wrapper';
 import { useTranslation } from 'react-i18next';
 import { Week } from './Week';
 import { LastWeek, ThisWeek, NextWeek } from '../mock';

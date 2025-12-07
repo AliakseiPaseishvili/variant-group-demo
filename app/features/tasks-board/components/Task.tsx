@@ -1,8 +1,8 @@
 import React, { type FC } from "react";
-import { Wrapper, WRAPPER_TYPE } from "~/components/ui/Wrapper";
+import { Wrapper, WRAPPER_TYPE } from "~/components/Wrapper";
 import type { TaskWithId } from "~/types/backend";
 import styles from "./TasksBoard.module.scss";
-import { Typography } from "~/components/ui/Typography";
+import { Typography } from "~/components/Typography";
 import { Tags } from "./Tags";
 
 type TaskProps = Omit<TaskWithId, "id">;

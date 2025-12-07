@@ -1,5 +1,5 @@
 import React, { type FC } from "react";
-import { Badge, BADGE_TYPE } from "~/components/ui/Badge";
+import { Badge, BADGE_TYPE } from "~/components/Badge";
 import type { Label } from "~/types/backend";
 import styles from "./TasksBoard.module.scss";
 

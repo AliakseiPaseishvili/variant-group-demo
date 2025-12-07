@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { Typography } from "~/components/ui/Typography";
+import { Typography } from "~/components/Typography";
 import styles from './TasksBoard.module.scss';
 import { Board } from "./Board";
 
