@@ -1,4 +1,6 @@
 import type { TaskWithId } from "~/types/backend";
+import Avatar from './media/Avatar.png';
+import Avatar1 from './media/Avatar_1.png';
 
 export const LastWeek: TaskWithId[] = [
   {
@@ -25,11 +27,11 @@ export const ThisWeek: TaskWithId[] = [
     userImages: [
       {
         id: "pic-1",
-        url: "../../../public/Avatar.png",
+        url: Avatar,
       },
       {
         id: "pic-2",
-        url: "../../../public/Avatar_1.png",
+        url: Avatar1,
       },
     ],
   },
@@ -44,7 +46,7 @@ export const NextWeek: TaskWithId[] = [
     userImages: [
       {
         id: "pic-2",
-        url: "../../../public/Avatar_1.png",
+        url: Avatar1,
       },
     ],
   },
