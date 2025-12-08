@@ -9,6 +9,7 @@
     letter-spacing: 0;
     color: variables.$black;
     margin: 0;
+    vertical-align: middle;
   }
 
   &_h4 {
@@ -27,5 +28,6 @@
     letter-spacing: 0.1px;
     color: variables.$gray-500;
     margin: 8px 0;
+    vertical-align: middle;
   }
 }
